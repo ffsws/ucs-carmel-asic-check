@@ -1,0 +1,17 @@
+# send notifications via spark 
+spark_notifications: False
+
+
+# if spark_notifications are set to True, the following parameters are required
+spark_token: changeme
+spark_room_id: changeme
+
+# UCS credentials
+username: changeme
+password: changeme
+
+
+# IP / hostnames of Fabric Interconnects
+fabric_interconnects:
+  - ucs-fi-a
+  - ucs-fi-b
