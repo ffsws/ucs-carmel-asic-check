@@ -16,7 +16,7 @@ https://supportforums.cisco.com/discussion/13012591/definition-show-hardware-int
 
 
 Optionally, if any of the interfaces report non-zero values, a notification can
-be provided via spark
+be provided via [Cisco Spark](https://www.ciscospark.com/)
 
 
 ## Requirements
@@ -39,6 +39,8 @@ pip install -r requirements.txt
 ## Configuration
 
 Modify [config.yaml](./config.yaml) with the appropriate values for your environment
+
+If you are using Cisco Spark for notifications, you can find your Spark token, and Room Id by visiting [Spark for Developers](https://developer.ciscospark.com/)
 
 
 ## Running
