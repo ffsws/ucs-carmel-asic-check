@@ -1,8 +1,8 @@
 import paramiko
 import time
 import yaml
-from lib.helpers import carmel_output_parser, disable_paging
-from lib.spark import send_spark_message
+from helpers.helpers import carmel_output_parser, disable_paging
+from helpers.spark import send_spark_message
 
 # Helper functions
 
