@@ -23,18 +23,23 @@ be provided via [Cisco Spark](https://www.ciscospark.com/)
 
 * Python 2.7
 * Paramiko 2.1.2
+* Requests 2.13.0
+* PyYAML 3.12
 
 
 ## Installation
 
 ```
-git clone https://github.com/kecorbin/carmel-crc-errors
-cd carmel-crc-errors
+git clone https://github.com/kecorbin/ucs-carmel-asic-check
+cd ucs-carmel-asic-check
 virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
 ```
+Note: If you do not have virtualenv installed use pip to install
+
+`pip install virtualenv`
 
 ## Configuration
 
