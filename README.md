@@ -23,6 +23,8 @@ be provided via [Cisco Spark](https://www.ciscospark.com/)
 
 * Python 2.7
 * Paramiko 2.1.2
+* Requests 2.13.0
+* PyYAML 3.12
 
 
 ## Installation
